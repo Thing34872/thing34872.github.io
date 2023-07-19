@@ -8,7 +8,8 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
+    <nav id="nav">
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
       <a href="./index.html">Home</a>
       <a href="./aboutMe.html">About Me</a>
       <a href="./minecraft.html">Free Minecraft</a>
@@ -17,9 +18,25 @@
       <a href="https://thing34872.github.io/content2/index.html">Switch Theme</a>
     </nav>
       <h1>Home</h1>
+
       <p>Description: Ever since I was 5, I have been amazed with web developing. So, here I am, with my own website!</p> 
       <p><button onclick="download()" style="width: 400px;">Download site source code</button></p>
       <script>
+        function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("nav");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
         function download() {
           window.location = 'https://github.com/Thing34872/thing34872.github.io/archive/refs/heads/main.zip'
         }      </script>
