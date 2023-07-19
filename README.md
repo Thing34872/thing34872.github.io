@@ -1,2 +1,2 @@
 # What i'm currently doing
-Trying some code for my website.
+Adding finishing touches to my website
