@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+.row {
+  display: flex;
+}
+
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
