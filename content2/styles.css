@@ -16,8 +16,8 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #646464;
-  background-color: #c4c4c4;
+  border-bottom: solid 1px #6b6969;
+  background-color: #cbcbcb;
 }
 
 nav a {
@@ -30,7 +30,7 @@ nav a {
 
 nav a:hover {
   transition: 0.2s ease-in;
-  color: rgb(97, 97, 97);
+  color: rgb(219, 219, 219);
 }
 
 main {
