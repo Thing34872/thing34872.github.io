@@ -1,2 +1,2 @@
 # What i'm currently doing
-Light mode hurts
+I HAD SPENT 4 MONTHS JUST TRYING TO GET THE CHANGE THEME BUTTON
